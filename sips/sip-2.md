@@ -2,7 +2,7 @@
 sip: 2
 title: Change Rewards Ratio
 status: Proposed
-author: Ken Nguyen <@SYXMadMen>
+author: Ken Nguyen <@hungypoo>
 discussions-to: https://t.me/SymbloxSIP
 created: 2020-10-21
 ---
