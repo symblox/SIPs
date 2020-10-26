@@ -14,7 +14,7 @@ created: 2020-10-21
 This SIP proposes to change the current rewards ratio of 80% Swap Pool/20% Seed Pool to 90% Swap Pool/10% Seed Pool.
 ## Abstract
 <!--A short (~200 word) description of the technical issue being addressed.-->
-The current rewards ratio is 80% Swap Pool/20% Seed Pool. Because of the limited amount of SYX at launch, the Seed Pool was created to give users an incentive to participate on the platform and earn rewards. Now that there are atleast 175,000 SYX in circulation, users can use the AMM (Swap Pool) to get SYX directly. Therefore, the need to give rewards to the Swap Pool can be reduced from 20% to 10%.
+The current rewards ratio is 80% Swap Pool/20% Seed Pool. Because of the limited amount of SYX at launch, the Seed Pool was created to give users an incentive to participate on the platform and earn rewards. Now that there are atleast 175,000 SYX in circulation, users can use the AMM (Swap Pool) to get SYX directly. Therefore, the need to give rewards to the Seed Pool can be reduced from 20% to 10%.
 ## Motivation
 <!--The motivation is critical for SIPs that want to change Symlox. It should clearly explain why the existing protocol specification is inadequate to address the problem that the SIP solves. SIP submissions without sufficient motivation may be rejected outright.-->
 This will incentives more users to participate into the liquidity pool (Swap Pool) by giving them an extra 10%. Currently, the liquidity in the Seed Pool is not utilized to create yield. By reducing the Seed Pool rewards, users might take a leap of faith and join the Swap Pool and earn higher APR's.
