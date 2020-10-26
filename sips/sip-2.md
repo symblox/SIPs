@@ -1,6 +1,6 @@
 ---
 sip: 2
-title: Remove Fee Penalty Tiers
+title: Change Rewards Ratio
 status: Proposed
 author: Ken Nguyen <@SYXMadMen>
 discussions-to: https://t.me/SymbloxSIP
