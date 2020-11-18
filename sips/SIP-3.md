@@ -44,31 +44,52 @@ created: 2020-11-18
 
 <!--This is a high level overview of *how* the SIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
-This is a high level overview of _how_ the SIP will solve the problem. The overview should clearly describe how the new feature will be implemented.
+新增资产交易对
+- USDT/SYX
+- ETH/SYX
+
+矿池奖励分配比例
+- 将原种子矿池（VLX）调整为5%；
+- 将原交易矿池VLX/SYX调整为75%；
+- 新增资产矿池USDT/SYX、ETH/SYX奖励分配比例各调整为10%；
+
+|  矿池/交易对名称  | 调整前  | 调整后 |
+|  ----  | :----:  | :----: |
+| VLX 种子池 | 10% | 5% |
+| VLX/SYX | 90% | 75% |
+| USDT/SYX | - | 10% |
+| ETH/SYX | - | 10% |
 
 ### Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
+VELAS 跨链属于全新推出的功能，具有一定的风险性。因此、建议用户投入的资产数量不要超过自己能够承担损失的数量。在 SYX 挖矿奖励分配比例上，本次新增的 USDT/SYX、ETH/SYX矿池建议先各分配10%比例，如运行良好，期间有用户希望调整这两个新增矿池比例时，可对奖励分配比例另行发起投票调整比例。
 
 ### Technical Specification
 
 <!--The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.-->
 
-The technical specification should outline the public API of the changes proposed. That is, changes to any of the interfaces Synthetix currently exposes or the creations of new ones.
+
 
 ### Test Cases
 
 <!--Test cases for an implementation are mandatory for SIPs but can be included with the implementation..-->
 
-Test cases for an implementation are mandatory for SIPs but can be included with the implementation.
 
-### Configurable Values
+
+### Implementation
 
 <!--Please list all values configurable under this implementation.-->
 
-Please list all values configurable under this implementation.
+- 创建 vUSDT/SYX 交易池；
+- 创建 vETH/SYX 交易池；
+- 创建新增交易池链上提案；提案包括以下5个动作 (Actions)：
+    - 向 RewardManager 添加 vUSDT/SYX 交易池，并设置奖励数为 2
+    - 向 RewardManager 添加 vETH/SYX 交易池，并设置奖励数为 2
+    - 向 ConnectorFactory 添加 vUSDT/SYX 交易池的 ConnectorImplementation
+    - 向 ConnectorFactory 添加 vETH/SYX 交易池的 ConnectorImplementation
+    - 设置 VLX/SYX 交易池奖励数为 15
 
 ## Copyright
 
