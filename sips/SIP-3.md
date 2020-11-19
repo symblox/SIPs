@@ -2,7 +2,7 @@
 sip: SIP-3
 title: 新增USDT、ETH矿池提案
 status: WIP
-author: Victoria (@Victoria)
+author: 过零丁洋 (@过零丁洋)
 
 created: 2020-11-18
 ---
