@@ -22,13 +22,13 @@ created: 2020-11-18
 
 为激励VLX用户参与到Symblox的流动性挖矿中，设立了无风险种子矿池（VLX）、交易矿池（VLX/SYX）。首期Symblox的流动性挖矿还剩下3周左右 ，社区对于新增资产诉求日渐强烈，不再满足于当前单一资产的挖矿（VLX、VLX/SYX），因此急需增加新的资产，故本次提案新增USDT、ETH两个矿池。
  
-当前种子矿池（VLX）与交易矿池（VLX/SYX）中奖励分配比例分别为10：90，为支持持有VLX代币用户可继续享受无风险挖矿，本次VLX种子矿池将依旧保留一定奖励分配比例。因总分配比例为100%，现增加了新的矿池，故需对已有矿池（VLX、VLX/SYX）及新的矿池（USDT/SYX、ETH/SYX）的奖励分配比例进行重新调整。
+当前种子矿池（VLX）与交易矿池（VLX/SYX）中奖励分配比例分别为10：90，为支持持有VLX代币用户可继续享受无风险挖矿，本次VLX种子矿池将依旧保留一定奖励分配比例。因总分配比例为100%，现增加了新的矿池，故需对已有矿池（VLX、VLX/SYX）及新的矿池（USDT/SYX、ETH/SYX）奖励分配比例进行重新调整。
 
 ## 目的 Motivation
 
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate. It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
 
-为了吸引更多元化的资产参与到 Symblox 协议中作为未来 Symblox 衍生品的抵押资产，从而进一步增加 Symblox 协议的资产规模以及流动性。
+为吸引更多元化的资产参与到 Symblox 协议中作为未来 Symblox 衍生品的抵押资产，从而进一步增加 Symblox 协议的资产规模以及流动性。
 
 ## 详细说明 Specification
 
@@ -48,10 +48,10 @@ created: 2020-11-18
 - USDT/SYX
 - ETH/SYX
 
-矿池奖励分配比例
-- 将原种子矿池（VLX）调整为5%；
-- 将原交易矿池VLX/SYX调整为75%；
-- 新增资产矿池USDT/SYX、ETH/SYX奖励分配比例各调整为10%；
+矿池奖励分配比例调整
+- 将原种子矿池比例（VLX）调整为5%；
+- 将原交易矿池比例（VLX/SYX）调整为75%；
+- 新增的资产矿池奖励分配比例（USDT/SYX、ETH/SYX）各调整为10%；
 
 |  矿池/交易对名称  | 调整前  | 调整后 |
 |  ----  | :----:  | :----: |
@@ -64,7 +64,9 @@ created: 2020-11-18
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-VELAS 跨链属于全新推出的功能，具有一定的风险性。因此、建议用户投入的资产数量不要超过自己能够承担损失的数量。在 SYX 挖矿奖励分配比例上，本次新增的 USDT/SYX、ETH/SYX矿池建议先各分配10%比例，如运行良好，期间有用户希望调整这两个新增矿池比例时，可对奖励分配比例另行发起投票调整比例。
+VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，建议用户在投入资产数量时应做好风险评估，不宜超过自己可承担损失的数量。
+
+在 SYX 挖矿奖励分配比例上，本次新增的 USDT/SYX、ETH/SYX矿池建议先各分配10%比例，如运行良好，期间有用户希望调整这两个新增矿池比例时，可对奖励分配比例另行发起投票调整比例。
 
 ### 技术实现说明 Technical Specification
 
