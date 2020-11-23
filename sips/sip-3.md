@@ -1,7 +1,7 @@
 ---
 sip: 3
 title: Add USDT/SYX Swap Pool
-status: WIP
+status: Proposed
 author: hxl009 (@hxl009)
 
 created: 2020-11-17
