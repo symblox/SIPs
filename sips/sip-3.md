@@ -9,7 +9,8 @@ created: 2020-11-17
 
 ## Simple Summary
 
-该sip建议增加USDT矿池挖矿，并调整原有矿池与新矿池的收益配比。调整后 VLX 种子池：VLX 交易池：USDT 交易池收益比率分别为 5%：65%：30%
+该sip建议增加USDT矿池挖矿，并调整原有矿池与新矿池的收益配比。
+
 This SIP proposes to add a USDT/SYX swap pool, and change the reward allocation ratio for exisiting pools.
 
 ## Abstract
