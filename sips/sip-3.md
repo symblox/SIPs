@@ -28,19 +28,23 @@ Right now, only VLX holders can participate Symblox yield farming. In order to e
 
 ### Overview
 
+提案分为以下3步
 There are 3 steps for the proposal. 
 
+- 首先，创建 SYX 和 USDT 的 Balancer Pool (BPT)，并设置 BPT 相应的比例为 80:20。例如，当目前价格为 1 SYX = 1 USDT 时， 该交易池每 1个 USDT 需对应 4个 SYX;
 - Firstly, we create a new Balancer pool for SYX and USDT, and set the weights of SYX and USDT to be 80:20 respectively. For example, assuming the market price for 1 SYX = 1 USDT, there needs to be 4 SYX for every USDT in the pool;
 
+- 然后，将 USDT/SYX 的交易池添加到 RewardManager，并设置该矿池的奖励点数为 6;
 - Secondly, we need to add the new USDT/SYX Balancer pool to the RewardManager, and set the reward allocation points to 6;
 
+- 最后，设置 VLX/SYX 交易池的奖励点数为 13。
 - Lastly, we set the reward allocation points for VLX/SYX swap pool to be 13.
 
-| Pool Name  | Before  | After  | Allocation Points  |
+| Pool Name 矿池名称 | Before 修改前 | After 修改后 | Allocation Points 奖励点数 |
 |---|---:|---:|---:|
-| VLX Seed  | 10% | 5% | 1 |
-| VLX Swap  | 90% | 65% | 13 |
-| USDT Swap  | - | 30% | 6 |
+| VLX Seed 种子池 | 10% | 5% | 1 |
+| VLX Swap 交易池 | 90% | 65% | 13 |
+| USDT Swap 交易池 | - | 30% | 6 |
 
 ### Rationale
 
