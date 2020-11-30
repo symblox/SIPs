@@ -1,10 +1,10 @@
 ---
-sip: 4
-title: 新增VLX/USDT交易对提案
-status: Proposed
-author:  Fudezl (@Fudezl)
+sip: SIP-3
+title: 新增USDT、ETH矿池提案
+status: WIP
+author: 过零丁洋 (@过零丁洋)
 
-created: 2020-11-28
+created: 2020-11-18
 ---
 
 <!--You can leave these HTML comments in your merged SIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new SIPs. Note that a SIP number will be assigned by an editor. When opening a pull request to submit your SIP, please use an abbreviated title in the filename, `sip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
@@ -13,22 +13,22 @@ created: 2020-11-28
 
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-- 新增VLX/USDT交易对提案；
-- 对VLX/USDT矿池进行20%比例SYX代币奖励；
+- 新增USDT/SYX、ETH/SYX两个交易资产矿池；
+- 调整VLX、VLX/SYX、USDT/SYX、ETH/SYX矿池奖励分配比例；
 
 ## 简述 Abstract
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the SIP is implemented, not *why* it should be done or *how* it will be done. If the SIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-目前Symblox 协议上VLX总交易额突破11亿枚（转入转出），因为Symblox 协议上没有VLX/USDT对，导致社区用户需在其余交易所购买/转入Symblox协议再进行流动性挖矿，这样的体验，一较为麻烦；其次一些中心化交易所流动性不强，不易成交；三是给别的交易所导流。因此，Symblox社区应该将这部分流量转变成自己的，我们有流量，对VLX及SYX将形成绝对优势定价权。
+为激励VLX用户参与到Symblox的流动性挖矿中，设立了无风险种子矿池（VLX）、交易矿池（VLX/SYX）。首期Symblox的流动性挖矿还剩下3周左右 ，社区对于新增资产诉求日渐强烈，不再满足于当前单一资产的挖矿（VLX、VLX/SYX），因此急需增加新的资产，故本次提案新增USDT、ETH两个矿池。
  
-为鼓励VLX原始持有者对VLX/USDT做出的流动性贡献，社区将对该交易对矿池进行一定比例的SYX代币奖励。
+当前种子矿池（VLX）与交易矿池（VLX/SYX）中奖励分配比例分别为10：90，为支持持有VLX代币用户可继续享受无风险挖矿，本次VLX种子矿池将依旧保留一定奖励分配比例。因总分配比例为100%，现增加了新的矿池，故需对已有矿池（VLX、VLX/SYX）及新的矿池（USDT/SYX、ETH/SYX）奖励分配比例进行重新调整。
 
 ## 目的 Motivation
 
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate. It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
 
-将Symblox社区VLX的被动流量转变为主动流量，Symblox社区有自主流量，对VLX及SYX将形成绝对优势定价权。
+为吸引更多元化的资产参与到 Symblox 协议中作为未来 Symblox 衍生品的抵押资产，从而进一步增加 Symblox 协议的资产规模以及流动性。
 
 ## 详细说明 Specification
 
@@ -45,31 +45,28 @@ created: 2020-11-28
 <!--This is a high level overview of *how* the SIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
 新增资产交易对
-- VLX/USDT
+- USDT/SYX
+- ETH/SYX
 
 矿池奖励分配比例调整
-- 将VLX种子矿池比例调整为1%；
-
-- 将VLX/SYX矿池比例调整为49%；
-
-- 将VLX/USDT矿池奖励分配比例调整为20%；
+- 将原种子矿池比例（VLX）调整为5%；
+- 将原交易矿池比例（VLX/SYX）调整为75%；
+- 新增的资产矿池奖励分配比例（USDT/SYX、ETH/SYX）各调整为10%；
 
 |  矿池/交易对名称  | 调整前  | 调整后 |
 |  ----  | :----:  | :----: |
-| VLX 种子池 | 5% | 1% |
-| VLX/SYX | 65% | 49% |
-| USDT/SYX | 30% | 30% |
-| VLX/USDT | - | 20% |
+| VLX 种子池 | 10% | 5% |
+| VLX/SYX | 90% | 75% |
+| USDT/SYX | - | 10% |
+| ETH/SYX | - | 10% |
 
 ### 原由 Rationale
 
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-增加资产交易对的同时，也将增加流动性。其次，当VLX与USDT之间有价差（套利空间）时，社区用户需去到相应的中心化交易所去交易，因其它交易所流动性不强，在交易过程中不易成交，如果所有交易在Symblox协议上完成，带动交易量的同时还能推动价格。
- 
-另外，以太坊上DeFi项目gas费用过高导致一些小资金用户难参与其中，Symblox在不断增加资产交易对之余也将带来流动性，而Symblox刚好可以去承接这部分用户，Symblox协议上支持的资产越多，参与进来的社区也将越多，Symblox协议上流动性起来了，对于VLX与SYX将在价格上形成主导权。
- 
 VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，建议用户在投入资产数量时应做好风险评估，不宜超过自己可承担损失的数量。
+
+在 SYX 挖矿奖励分配比例上，本次新增的 USDT/SYX、ETH/SYX矿池建议先各分配10%比例，如运行良好，期间有用户希望调整这两个新增矿池比例时，可对奖励分配比例另行发起投票调整比例。
 
 ### 技术实现说明 Technical Specification
 
@@ -87,6 +84,14 @@ VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，�
 
 <!--Please list all values configurable under this implementation.-->
 
+- 创建 vUSDT/SYX 交易池；
+- 创建 vETH/SYX 交易池；
+- 创建新增交易池链上提案；提案包括以下5个动作 (Actions)：
+    - 向 RewardManager 添加 vUSDT/SYX 交易池，并设置奖励数为 2
+    - 向 RewardManager 添加 vETH/SYX 交易池，并设置奖励数为 2
+    - 向 ConnectorFactory 添加 vUSDT/SYX 交易池的 ConnectorImplementation
+    - 向 ConnectorFactory 添加 vETH/SYX 交易池的 ConnectorImplementation
+    - 设置 VLX/SYX 交易池奖励数为 15
 
 ## 版权 Copyright
 
