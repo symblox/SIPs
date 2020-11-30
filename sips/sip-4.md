@@ -3,8 +3,7 @@ sip: 4
 title: 新增VLX/USDT交易对提案
 status: Proposed
 author: Fudezl (@Fudezl)
-
-created: 2020-11-30
+created: 2020-11-28
 ---
 
 <!--You can leave these HTML comments in your merged SIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new SIPs. Note that a SIP number will be assigned by an editor. When opening a pull request to submit your SIP, please use an abbreviated title in the filename, `sip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
@@ -20,7 +19,7 @@ created: 2020-11-30
 
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the SIP is implemented, not *why* it should be done or *how* it will be done. If the SIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-目前 Symblox 协议上 VLX 总交易额突破 11 亿枚（转入转出），因为 Symblox 协议上没有 VLX/USDT 对，导致社区用户需在其余交易所购买/转入 Symblox 协议再进行流动性挖矿，这样的体验，一较为麻烦；其次一些中心华交易所流动性不强，不易成交；三是给别的交易所导流。因此，Symblox 社区应该将这部分流量转变成自己的，我们有流量，对 VLX 及 SYX 将形成绝对优势定价权。
+目前 Symblox 协议上 VLX 总交易额突破 11 亿枚（转入转出），因为 Symblox 协议上没有 VLX/USDT 对，导致社区用户需在其余交易所购买/转入 Symblox 协议再进行流动性挖矿，这样的体验，一较为麻烦；其次一些中心化交易所流动性不强，不易成交；三是给别的交易所导流。因此，Symblox 社区应该将这部分流量转变成自己的，我们有流量，对 VLX 及 SYX 将形成绝对优势定价权。
 
 为鼓励 VLX 原始持有者对 VLX/USDT 做出的流动性贡献，社区将对该交易对矿池进行一定比例的 SYX 代币奖励。
 
@@ -49,6 +48,13 @@ created: 2020-11-30
 -   VLX/USDT
 
 矿池奖励分配比例调整
+
+- 将VLX种子矿池比例调整为1%；
+
+- 将VLX/SYX矿池比例调整为49%；
+
+- 将VLX/USDT矿池奖励分配比例调整为20%；
+
 
 -   将 VLX 种子矿池比例调整为 1%；
 -   将 VLX/SYX 矿池比例调整为 49%；
@@ -83,7 +89,6 @@ VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，�
 
 <!--Please list all values configurable under this implementation.-->
 
--
 
 ## 版权 Copyright
 
