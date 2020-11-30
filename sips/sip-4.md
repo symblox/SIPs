@@ -1,7 +1,7 @@
 ---
 sip: SIP-4
 title: 新增VLX/USDT交易对提案
-status: WIP
+status: Proposed
 author: XY (@XY)
 
 created: 2020-11-30
