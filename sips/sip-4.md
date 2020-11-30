@@ -3,7 +3,7 @@ sip: SIP-4
 title: 新增VLX/USDT交易对提案
 status: Proposed
 author: Fudezl (@Fudezl)
-created: 2020-11-30
+created: 2020-11-29
 ---
 
 <!--You can leave these HTML comments in your merged SIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new SIPs. Note that a SIP number will be assigned by an editor. When opening a pull request to submit your SIP, please use an abbreviated title in the filename, `sip-draft_title_abbrev.md`. The title should be 44 characters or less.-->
