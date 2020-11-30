@@ -1,6 +1,6 @@
 ---
 sip: 4
-title: Add VLX/USDT Swapp Pool 新增VLX/USDT交易对
+title: Add VLX/USDT Swap Pool 新增VLX/USDT交易对
 status: Proposed
 author: Fudezl (@Fudezl)
 created: 2020-11-28
@@ -115,7 +115,7 @@ There are 3 steps for the proposal.
 | VLX Seed 种子池 | 5% | 1% | 1 | 1 |
 | VLX/SYX 交易池 | 65% | 49% | 13 | 49 |
 | USDT/SYX 交易池 | 30% | 30% | 6 | 30 |
-| USDT/VLLX 交易池 | - | 20% | - | 20 |
+| USDT/VLX 交易池 | - | 20% | - | 20 |
 
 
 ## 版权 Copyright
