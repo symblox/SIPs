@@ -111,7 +111,7 @@ There are 3 steps for the proposal.
 - Lastly, we set the reward allocation points for VLX/SYX swap pool to be 49.
 
 | Pool Name 矿池名称 | Before 修改前 | After 修改后 | Previous Allocation 修改前奖励数 | After Allocation 修改后奖励数 |
-|---|---:|---:|---:|
+|---|---:|---:|---:|---:|
 | VLX Seed 种子池 | 5% | 1% | 1 | 1 |
 | VLX/SYX 交易池 | 65% | 49% | 13 | 49 |
 | USDT/SYX 交易池 | 30% | 30% | 6 | 30 |
