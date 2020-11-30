@@ -3,7 +3,6 @@ sip: SIP-4
 title: 新增VLX/USDT交易对提案
 status: Proposed
 author: Fudezl (@Fudezl)
-
 created: 2020-11-30
 ---
 
@@ -49,14 +48,16 @@ created: 2020-11-30
 
 矿池奖励分配比例调整
 - 将VLX种子矿池比例调整为1%；
-- VLX/SYX矿池比例调整为49%；
+
+- 将VLX/SYX矿池比例调整为49%；
+
 - 将VLX/USDT矿池奖励分配比例调整为20%；
 
 |  矿池/交易对名称  | 调整前  | 调整后 |
 |  ----  | :----:  | :----: |
 | VLX 种子池 | 5% | 1% |
 | VLX/SYX | 65% | 49% |
-| USDT/SYX | 30 | -% |
+| USDT/SYX | 30% | - |
 | VLX/USDT | - | 20% |
 
 ### 原由 Rationale
@@ -84,7 +85,6 @@ VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，�
 ### 实施方法 Implementation
 
 <!--Please list all values configurable under this implementation.-->
-
 
 
 ## 版权 Copyright
