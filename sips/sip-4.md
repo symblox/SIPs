@@ -1,5 +1,5 @@
 ---
-sip: SIP-4
+sip: 4
 title: 新增VLX/USDT交易对提案
 status: Proposed
 author:  Fudezl (@Fudezl)
