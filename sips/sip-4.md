@@ -89,6 +89,34 @@ VELAS 跨链属于全新推出的功能，具有一定的风险性。因此，�
 
 <!--Please list all values configurable under this implementation.-->
 
+Overview
+提案分为以下3步 
+
+There are 3 steps for the proposal.
+
+- 首先，创建 VLX 和 USDT 的 Balancer Pool (BPT)，并设置 BPT 相应的比例为 90:10。根据当前 VLX 价格为 0.025 USDT, 则需存入 90,000 VLX 和 250 USDT 作为初始流动性。
+
+- Firstly, we create a new Balancer pool for VLX and USDT, and set the weights of SYX and USDT to be 90:10 respectively. Based on the current market price of VLX is 1 VLX = 0.025 USDT, we deposit 90,000 VLX and 250 USDT to see the pool;
+
+- 第二步，将 USDT/VLX 的交易池添加到 RewardManager，并设置该矿池的奖励点数为 20;
+
+- Secondly, we need to add the new USDT/VLX pool to the RewardManager, and set the reward allocation points to 20;
+
+- 第三步，设置 USDT/SYX 交易池的奖励点数为 30。
+
+- Thirdly, set the reward allocation points for USDT/SYX pool to be 30.
+
+- 最后，设置 VLX/SYX 交易池的奖励点数为 49。
+
+- Lastly, we set the reward allocation points for VLX/SYX swap pool to be 49.
+
+| Pool Name 矿池名称 | Before 修改前 | After 修改后 | Allocation Points 奖励点数 |
+|---|---:|---:|---:|
+| VLX Seed 种子池 | 10% | 1% | 1 |
+| VLX/SYX 交易池 | 65% | 49% | 49 |
+| USDT/SYX 交易池 | 30% | 30% | 30 |
+| USDT/VLLX 交易池 | - | 20% | 20 |
+
 
 ## 版权 Copyright
 
