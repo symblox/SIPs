@@ -56,7 +56,7 @@ created: 2020-11-30
 |  ----  | :----:  | :----: |
 | VLX 种子池 | 5% | 1% |
 | VLX/SYX | 65% | 49% |
-| USDT/SYX | 30% | - |
+| USDT/SYX | 30% | 30% |
 | VLX/USDT | - | 20% |
 
 ### 原由 Rationale
