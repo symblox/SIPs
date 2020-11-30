@@ -1,8 +1,8 @@
 ---
-sip: SIP-3
+sip: SIP-4
 title: 新增VLX/USDT交易对提案
-status: WIP
-author: XY (@XY)
+status: Proposed
+author:  Fudezl (@Fudezl)
 
 created: 2020-11-30
 ---
