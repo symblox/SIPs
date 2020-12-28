@@ -10,7 +10,7 @@ requires (*optional): <SIP number(s)>
 ---
 ## Simple Summary
 
-该sip修改现有5个矿池的挖矿配比。调整后 SYX2/VLX：USDT/VLX：SYX2/USDT:SYX2/ETH:ETH/VLX=66%:12%:12%:5%:5%
+该sip修改现有5个矿池的挖矿配比。调整后挖矿分配比例为 SYX2/VLX：USDT/VLX：SYX2/USDT:SYX2/ETH:ETH/VLX=66%:12%:12%:5%:5%
 
 ## Abstract
 
