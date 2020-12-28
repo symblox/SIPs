@@ -14,7 +14,7 @@ requires (*optional): <SIP number(s)>
 
 ## Abstract
 
-基于现有提供流动性的资金情况，现有VLX挖矿相对于USDT和ETH挖矿的收益配比相差太远，同时因为收益低，大部分一期VLX参与挖矿的资金出现外流，为了提高symblox的流动性，建议修改现有矿池的收益分配比。
+基于现有提供流动性的资金情况，现有VLX挖矿相对于USDT和ETH挖矿的收益配比相差太远，为确保SYMBLOX总市值实现正向现金流，同时提高symblox的流动性，建议修改现有矿池的收益分配比。
 
 ## Motivation
 
