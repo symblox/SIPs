@@ -36,16 +36,16 @@ There are 5 steps for the proposal.
 - Set the reward allocation points for VLX/SYX swap pool to be 13.2;
 
 - 设置 USDT/VLX 交易池的奖励点数为 1;
-- Set the reward allocation points for VLX/SYX swap pool to be 13.2;
+- Set the reward allocation points for VLX/USDT swap pool to be 1;
 
 - 设置 SYX/USDT 交易池的奖励点数为 2.4;
-- Set the reward allocation points for VLX/SYX swap pool to be 13.2;
+- Set the reward allocation points for SYX/USDT swap pool to be 2.4;
 
 - 设置 SYX/ETH 交易池的奖励点数为 2.4;
-- Set the reward allocation points for VLX/SYX swap pool to be 13.2;
+- Set the reward allocation points for SYX/ETH swap pool to be 2.4;
 
 - 设置 VLX/ETH 交易池的奖励点数为 1;
-- Set the reward allocation points for VLX/SYX swap pool to be 13.2;
+- Set the reward allocation points for VLX/ETH swap pool to be 1;
 
 | Pool Name 矿池名称 | Before 修改前 | After 修改后 | Allocation Points 奖励点数 |
 |---|---:|---:|---:|
