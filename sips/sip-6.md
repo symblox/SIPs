@@ -1,7 +1,7 @@
 ---
 sip: 6
 title: Change Reward Allocation Points for Swap Pools
-status: WIP
+status: Proposed
 author: hxl009(@hxl009)
 discussions-to: https://t.me/symbloxsips
 created: 2020-12-28
