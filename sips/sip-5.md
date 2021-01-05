@@ -1,7 +1,7 @@
 ---
 sip: 5
 title: Add ETH/SYX Swap Pool
-status: WIP
+status: Proposed
 author: xizi0803(@xizi0803)
 
 created: 2020-11-29
