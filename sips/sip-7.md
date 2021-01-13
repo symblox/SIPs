@@ -1,7 +1,7 @@
 ---
 sip: 7
 title: Change Reward Allocations for SYX/VLX and VLX/ETH Pools
-status: WIP
+status: Proposed
 author: Symblox (@symblox)
 
 created: 2020-11-17
