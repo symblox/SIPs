@@ -9,14 +9,14 @@ created: 2021-01-14
 
 ## Simple Summary
 
-添加VLX + SYX双资产平衡流动性矿池
 增加双资产平衡流动性矿池三个:
-VLX+SYX,比例50%
-USDT+SYX,比例25%
-ETH+SYX,比例25%
+- VLX+SYX,比例50%；
+- USDT+SYX,比例25%；
+- ETH+SYX,比例25%；
 
 增加币币交易功能
-交易兑如下:
+
+交易对如下:
 VLX.SYX.USDT.ETH
 
 
@@ -35,6 +35,7 @@ VLX.SYX.USDT.ETH
 ## Specification
 
 调整后：
+
 1、双资产矿池
 VLX+SYX,奖励比例50%
 USDT+SYX,奖励比例25%
