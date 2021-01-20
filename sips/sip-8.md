@@ -37,16 +37,16 @@ VLX.SYX.USDT.ETH
 调整后：
 
 1、双资产矿池
-VLX+SYX,奖励比例50%
-USDT+SYX,奖励比例25%
-ETH+SYX,奖励比例25%
+- VLX+SYX,奖励比例50%
+- USDT+SYX,奖励比例25%
+- ETH+SYX,奖励比例25%
 
 2、单资矿池
-vlx / syx 交易池占比0％
-vlx / usdt 交易池占比0%
-SYX / usdt 交易池占比0％
-vlx / eth 交易池占比0％
-syx / eth 交易池占比0％
+- vlx / syx 交易池占比0％
+- vlx / usdt 交易池占比0%
+- SYX / usdt 交易池占比0％
+- vlx / eth 交易池占比0％
+- syx / eth 交易池占比0％
 
 ### Overview
 
