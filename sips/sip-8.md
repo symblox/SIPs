@@ -10,6 +10,14 @@ created: 2021-01-14
 ## Simple Summary
 
 添加VLX + SYX双资产平衡流动性矿池
+增加双资产平衡流动性矿池三个:
+VLX+SYX,比例50%
+USDT+SYX,比例25%
+ETH+SYX,比例25%
+
+增加币币交易功能
+交易兑如下:
+VLX.SYX.USDT.ETH
 
 
 ## Abstract
@@ -26,21 +34,29 @@ created: 2021-01-14
 
 ## Specification
 
-调整后，vlx + syx双资产平衡流动性矿池挖矿奖励占比50％。待这个基础矿池根基稳定后，依次可增加其他资产＋ syx的双资产平衡流动性矿池。
-vlx / syx交易池占比10％
-vlx / usdt交易池占比10%
-SYX /美元交易池占比10％
-vlx / eth交易池占比10％
-syx / eth交易池占比10％
+调整后：
+1、双资产矿池
+VLX+SYX,奖励比例50%
+USDT+SYX,奖励比例25%
+ETH+SYX,奖励比例25%
+
+2、单资矿池
+vlx / syx 交易池占比0％
+vlx / usdt 交易池占比0%
+SYX / usdt 交易池占比0％
+vlx / eth 交易池占比0％
+syx / eth 交易池占比0％
 
 ### Overview
 
 
 | Pool Name 矿池名称 | Before 修改前 | After 修改后 | Allocation Points 奖励点数 |
 | ------------------ | ------------: | -----------: | -------------------------: |
-| vlx + syx           |         - |          50% |                       5|
-| SYX/VLX            |         66% |          10% |                       1 |
-| VLX/USDT           |         5% |           10% |                          1 |
-| SYX/USDT           |        12% |          10% |                        1 |
-| SYX/ETH            |        12% |          10% |                        1 |
-| VLX/ETH            |        5% |           10% |                          1 |
+| VLX+SYX           |         - |          50% |                       2|
+| USDT+SYX           |         - |          25% |                       1|
+| ETH+SYX           |         - |          25% |                       1|
+| SYX/VLX            |         66% |          0% |                        0|
+| VLX/USDT           |         5% |           0% |                          0 |
+| SYX/USDT           |        12% |          0% |                        0 |
+| SYX/ETH            |        12% |          0% |                        0 |
+| VLX/ETH            |        5% |           0% |                          0 |
