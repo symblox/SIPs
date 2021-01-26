@@ -2,7 +2,7 @@
 sip: 8
 title: Add/Remove Liquidity with 2 Tokens
 status: Proposed
-author: vs2021（@ vs2021）
+author: vs2021(@vs2021)
 
 created: 2021-01-14
 ---
