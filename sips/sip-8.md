@@ -44,7 +44,7 @@ The intent of this proposal is to minimize the volatilities for the liquidity pr
 - SYX / USDT，矿池资产比例为 SYX 90 : USDT 10，奖励比例25%；
 - SYX / ETH，矿池资产比例为 SYX 90 : ETH 10，奖励比例25%；
 
-2、单资矿池
+2、单资产矿池
 
 - vlx / syx 交易池占比0％
 - vlx / usdt 交易池占比0%
