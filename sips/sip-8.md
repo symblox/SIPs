@@ -73,7 +73,7 @@ There will be 3 new pools that support adding/removing liquidity with 2 tokens
 
 ### Technical Specification
 
-提案分为以下3步 
+提案分为以下几步 
 
 - 创建双资产 SYX 和 VLX 的 Balancer Pool (BPT)，并设置 BPT 相应的比例为 40:60; 
 - 创建双资产 SYX 和 USDT 的 Balancer Pool (BPT)，并设置 BPT 相应的比例为 90:10; 
@@ -87,7 +87,7 @@ There will be 3 new pools that support adding/removing liquidity with 2 tokens
 - 将单资产 VLX / USDT 的交易池奖励点数设置为 0; 
 - 将单资产 VLX / ETH 的交易池奖励点数设置为 0; 
 
-There are 3 steps for the proposal.
+There are the following steps for the proposal.
 
 - Create a new Balancer pool for SYX and VLX, and set the asset weights of SYX and VLX to be 40:60 respectively;
 - Create a new Balancer pool for SYX and USDT, and set the asset weights to be 90:10 respectively;
