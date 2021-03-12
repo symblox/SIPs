@@ -1,6 +1,6 @@
 ---
 sip: 9
-title: Kick-start a New Symblox Yield Farming Season
+title: Kick-start a New Symblox Yield Farming Season on VELAS
 status: Proposed
 author: symblox(@symblox)
 
@@ -11,7 +11,7 @@ created: 2021-03-04
 
 为 Symblox 新一季流动性挖矿发行 512,000 个 SYX 代币；并且支持 sVLX 合成资产挖矿；新增交易对：sVLX+SYX；同时调整现有矿池奖励比例。
 
-This SIP proposes to add new swap pools, including SYX/VLX, SYX/USDT, and SYX/ETH that support adding/removing liquidity with 2 tokens; and change the reward allocation ratios for exisiting pools.
+This SIP proposes to mint 512,000 SYX tokens to RewardManager, and start a new yield farming season with trading pairs of sVLX/SYX, VLX/SYX, USDT/SYX, and ETH/SYX.
 
 ## Abstract
 
